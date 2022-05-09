@@ -1,5 +1,5 @@
 # pcg-js
-This is a library for generating PIN codes.
+Based on [PIN Code Generator (aka PCG)](https://github.com/rasolofonirina/pin-code-generator) project, this is a library for generating PIN codes.
 
 ## Installation
 ```
