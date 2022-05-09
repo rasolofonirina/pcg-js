@@ -1,0 +1,30 @@
+{
+  "name": "pcg-js",
+  "version": "1.0.0",
+  "description": "This is a library for generating PIN codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasolofonirina/pcg-js.git"
+  },
+  "keywords": [
+    "pcg",
+    "pcg-js",
+    "pin",
+    "code",
+    "pin-code",
+    "pincode",
+    "generator",
+    "pin-code-generator",
+    "pincode-generator"
+  ],
+  "author": "Eric Rasolofonirina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rasolofonirina/pcg-js/issues"
+  },
+  "homepage": "https://github.com/rasolofonirina/pcg-js#readme"
+}
