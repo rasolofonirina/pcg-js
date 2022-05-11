@@ -4,20 +4,20 @@ const pinCode = []
 
 // Generate PIN Code
 function generateCode() {
-    let num1 = generateRandomNumber()
-    pinCode.push(num1)
+    let firstNumber = generateRandomNumber()
+    pinCode.push(firstNumber)
 
-    let num2 = generateRandomNumber()
-    num2 = compare(num1, num2)
-    pinCode.push(num2)
+    let secondNumber = generateRandomNumber()
+    secondNumber = compare(firstNumber, secondNumber)
+    pinCode.push(secondNumber)
 
-    let num3 = generateRandomNumber()
-    num3 = compare(num2, num3)
-    pinCode.push(num3)
+    let thirdNumber = generateRandomNumber()
+    thirdNumber = compare(secondNumber, thirdNumber)
+    pinCode.push(thirdNumber)
 
-    let num4 = generateRandomNumber()
-    num4 = compare(num3, num4)
-    pinCode.push(num4)
+    let fourthNumber = generateRandomNumber()
+    fourthNumber = compare(thirdNumber, fourthNumber)
+    pinCode.push(fourthNumber)
 
     return pinCode.join('')
 }
